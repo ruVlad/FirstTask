@@ -24,7 +24,7 @@ public class Model {
         Random random = new Random();
         this.path = path;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             File file = new File(path + "\\" + i + ".txt");
             paths.add(Paths.get(path + "\\" + i + ".txt"));
             try (FileWriter fileWriter = new FileWriter(path + "\\" + i + ".txt")) {
